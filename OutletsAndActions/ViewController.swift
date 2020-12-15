@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var Label: UILabel!
     
     
-    @IBOutlet var LabelCollection: [UILabel]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +21,12 @@ class ViewController: UIViewController {
 
     @IBAction func buttonTapped(_ sender: UIButton) {
         print("Hello Word")
-        Label.text = "Hello Label
+        Label.text = "Hello Label"
+    }
+    
+    
+    @IBAction func buttonPrest(_ sender: UIButton) {
+        print(#function)
     }
 }
 
